@@ -1,0 +1,94 @@
+1,17d0
+< g++ -g -o calculator calculator.cpp
+< calculator.cpp:300:1: warning: control may reach end of non-void function [-Wreturn-type]
+< }
+< ^
+< calculator.cpp:538:1: warning: control may reach end of non-void function [-Wreturn-type]
+< }
+< ^
+< calculator.cpp:591:1: warning: control may reach end of non-void function [-Wreturn-type]
+< }
+< ^
+< calculator.cpp:634:1: warning: control may reach end of non-void function [-Wreturn-type]
+< }
+< ^
+< calculator.cpp:670:1: warning: control may reach end of non-void function [-Wreturn-type]
+< }
+< ^
+< 5 warnings generated.
+122d104
+< Parse error: found invalid token * at line 1
+125d106
+< Parse error: found invalid token / at line 1
+128d108
+< Parse error: found invalid token / at line 1
+131d110
+< Parse error: found invalid token * at line 1
+134d112
+< Parse error: found invalid token * at line 1
+137d114
+< Parse error: found invalid token / at line 1
+140,141d116
+< 0
+< Parse error: found invalid token * at line 2
+144d118
+< Parse error: found invalid token / at line 2
+147d120
+< Parse error: found invalid token * at line 1
+150,151d122
+< 0
+< Parse error: found invalid token / at line 2
+154d124
+< Parse error: found invalid token / at line 1
+157,158d126
+< 0
+< Parse error: found invalid token / at line 2
+161d128
+< Parse error: found invalid token * at line 1
+164,165d130
+< 0
+< Parse error: found invalid token * at line 2
+168d132
+< Parse error: found invalid token / at line 1
+171d134
+< Parse error: found invalid token / at line 1
+174d136
+< Parse error: found invalid token / at line 1
+177d138
+< Parse error: found invalid token / at line 1
+180d140
+< Parse error: found invalid token / at line 1
+183d142
+< Parse error: found invalid token / at line 1
+186d144
+< Parse error: found invalid token / at line 1
+189d146
+< Parse error: found invalid token * at line 1
+192d148
+< Parse error: found invalid token * at line 1
+195d150
+< Parse error: found invalid token / at line 1
+198d152
+< Parse error: found invalid token * at line 1
+201c155
+< Parse error: found invalid token = at line 1
+---
+> Parse error: expected ] found ) at line 1
+204c158
+< Parse error: found invalid token / at line 1
+---
+> Parse error: found invalid token print at line 3
+216c170
+< Parse error: found invalid token * at line 1
+---
+> Parse error: expected [ found M at line 2
+222c176
+< Parse error: found invalid token / at line 1
+---
+> Parse error: found invalid token = at line 1
+225c179
+< Parse error: found invalid token * at line 2
+---
+> Parse error: found invalid token number at line 2
+437d390
+< 0
